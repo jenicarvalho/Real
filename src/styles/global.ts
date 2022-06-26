@@ -6,6 +6,7 @@ export const { styled, css } = createStitches({
       white: '#fff',
       primary: '#6D5BD0',
       lightPrimary: '#F4F2FF',
+      darkPrimary: '#4945C4',
       lightPurple: '#E9EDF5',
       gray: '#6E6893',
       lightGray: '#D9D5EC',

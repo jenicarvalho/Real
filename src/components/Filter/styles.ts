@@ -7,7 +7,7 @@ export const Container = styled('div', {
   background: '$white',
   borderTopLeftRadius: 8,
   borderTopRightRadius: 8,
-  padding: '15px 20px',
+  padding: 15,
 })
 
 export const Filters = styled('div', {

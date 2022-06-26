@@ -1,12 +1,11 @@
 import { styled } from '@stitches/react'
 
 export const Container = styled('div', {
-  background: '$lightPrimary',
-  border: 'none',
   borderRadius: 6,
   display: 'flex',
   alignItems: 'center',
   padding: '0 20px',
+  border: '1px solid $lightGray',
 
   'svg': {
     marginRight: 10
@@ -15,7 +14,7 @@ export const Container = styled('div', {
 
 export const InputStyled = styled('input', {
   width: 350,
-  height: 45,
+  height: 32,
   background: 'transparent',
   border: 'none',
   outline: 'none',

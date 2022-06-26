@@ -1,14 +1,15 @@
 import { Container, InputStyled } from './styles';
 
 interface Props {
-  children?: JSX.Element
+  children?: JSX.Element,
+  placeholder: string
 }
 
-const Input = ({ children }: Props) => {
+const Input = ({ children, placeholder }: Props) => {
   return (
     <Container>
       {children && children}
-      <InputStyled type='text' placeholder='Filtre por nome ou status'/>
+      <InputStyled type='text' placeholder={placeholder} />
     </Container>
   );
 }

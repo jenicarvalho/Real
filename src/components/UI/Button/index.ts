@@ -6,11 +6,11 @@ export const Button = styled('button', {
   background: '$white',
   borderRadius: 6,
   fontSize: 16,
-  padding: 10,
+  padding: 8,
   color: '$black',
   display: 'flex',
   alignItems: 'center',
-  transition: 'all .3s ease',
+  transition: 'all .3s ease-in-out',
 
   'svg': {
     marginRight: 5,
@@ -22,7 +22,7 @@ export const Button = styled('button', {
         backgroundColor: '$primary',
         color: 'white',
         '&:hover': {
-          backgroundColor: '$black',
+          backgroundColor: '$darkPrimary',
         },
       },
       secondary: {
@@ -35,6 +35,10 @@ export const Button = styled('button', {
         },
       },
     },
+  },
+
+  '&:active': {
+    boxShadow: '3px 3px 0px #bfbdf1, -3px -3px 0px #bfbdf1, 3px -3px 0px #bfbdf1, -3px 3px 0px #bfbdf1'
   }
 
 })

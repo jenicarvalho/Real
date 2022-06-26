@@ -11,9 +11,9 @@ const EntryDescription = ({ active }: Props) => {
       <ul>
         <li>
           <svg style={{ width: 25, height: 25}} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.75 12C1.75 13.2426 2.75736 14.25 4 14.25H10.2485C10.5513 14.25 10.8438 14.1401 11.0717 13.9407L13.8231 11.5332C14.0944 11.2958 14.25 10.9529 14.25 10.5925V4C14.25 2.75736 13.2426 1.75 12 1.75H4C2.75736 1.75 1.75 2.75736 1.75 4V12Z" stroke="#868FA0" stroke-width="1.5"/>
-          <path d="M5.25 6.5H10.75" stroke="#868FA0" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M5.25 9.5H8.75" stroke="#868FA0" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M1.75 12C1.75 13.2426 2.75736 14.25 4 14.25H10.2485C10.5513 14.25 10.8438 14.1401 11.0717 13.9407L13.8231 11.5332C14.0944 11.2958 14.25 10.9529 14.25 10.5925V4C14.25 2.75736 13.2426 1.75 12 1.75H4C2.75736 1.75 1.75 2.75736 1.75 4V12Z" stroke="#868FA0" strokeWidth="1.5"/>
+          <path d="M5.25 6.5H10.75" stroke="#868FA0" strokeWidth="1.5" strokeLinecap="round"/>
+          <path d="M5.25 9.5H8.75" stroke="#868FA0" strokeWidth="1.5" strokeLinecap="round"/>
         </svg>
 
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis alias quos qui assumenda ea. Recusandae pariatur eaque explicabo veniam amet ratione suscipit repellat fuga modi numquam sit, quia ipsa voluptates?</li>
@@ -29,7 +29,7 @@ const EntryDescription = ({ active }: Props) => {
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 2C8.41421 2 8.75 2.33579 8.75 2.75V7.25H13.25C13.6642 7.25 14 7.58579 14 8C14 8.41422 13.6642 8.75 13.25 8.75H8.75V13.25C8.75 13.6642 8.41421 14 8 14C7.58578 14 7.25 13.6642 7.25 13.25V8.75H2.75001C2.33579 8.75 2.00001 8.41422 2.00001 8C2.00001 7.58579 2.33579 7.25 2.75001 7.25H7.25V2.75C7.25 2.33579 7.58578 2 8 2Z" fill="#687182"/>
+            <path fillRule="evenodd" clipRule="evenodd" d="M8 2C8.41421 2 8.75 2.33579 8.75 2.75V7.25H13.25C13.6642 7.25 14 7.58579 14 8C14 8.41422 13.6642 8.75 13.25 8.75H8.75V13.25C8.75 13.6642 8.41421 14 8 14C7.58578 14 7.25 13.6642 7.25 13.25V8.75H2.75001C2.33579 8.75 2.00001 8.41422 2.00001 8C2.00001 7.58579 2.33579 7.25 2.75001 7.25H7.25V2.75C7.25 2.33579 7.58578 2 8 2Z" fill="#687182"/>
           </svg>
           added on <time>11 May 2021 @ 2:57 PM.</time></li>
       </ul>

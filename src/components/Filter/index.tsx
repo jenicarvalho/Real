@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Button } from '../UI/Button';
 import Input from '../UI/Input';
 import Modal from '../UI/Modal';
@@ -12,21 +12,6 @@ const Filter = () => {
   const [showModal, setShowModal] = useState(false)
 
   const toggleModal = () => setShowModal(initialState => !initialState)
-
-
-  useEffect(() => {
-    const toggleClose = () => {
-      document.addEventListener('click', (e: any) => {
-        if(!e.target.classList.contains('modal')) {
-          console.log('e', !e.target.classList.contains('modal'))
-          setShowModal(false)
-        }
-      })
-    }
-    document.addEventListener('click', toggleClose);
-    return () => document.removeEventListener('click', toggleClose);
-  }, [showModal]);
-
 
   return (
     <Container>

@@ -4,8 +4,10 @@ export const Container = styled('div', {
   borderRadius: 6,
   display: 'flex',
   alignItems: 'center',
-  padding: '0 20px',
+  padding: '0 10px',
   border: '1px solid $lightGray',
+  background: '$white',
+  color: '$gray',
 
   'svg': {
     marginRight: 10
@@ -15,7 +17,7 @@ export const Container = styled('div', {
 export const InputStyled = styled('input', {
   width: 350,
   height: 32,
-  background: 'transparent',
+  background: '$white',
   border: 'none',
   outline: 'none',
 

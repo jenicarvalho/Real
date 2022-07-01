@@ -1,8 +1,8 @@
 import { Container, InputStyled } from './styles';
 
 interface Props {
-  children?: JSX.Element,
-  placeholder: string
+  children?: JSX.Element | string,
+  placeholder?: string
 }
 
 const Input = ({ children, placeholder }: Props) => {
